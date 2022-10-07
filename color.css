@@ -1,0 +1,19 @@
+:any-link {
+  color: indigo;
+}
+
+::selection {
+  background: darkviolet;
+  color: gold;
+}
+
+:root {
+  background: #ed3;
+  color: rebeccapurple;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: seashell;
+  }
+}
